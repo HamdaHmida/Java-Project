@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+ <servlet>
+   <servlet-name>ControleurServlet</servlet-name>
+   <servlet-class>web.ControleurServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>ControleurServlet</servlet-name>
+   <url-pattern>/studentF</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+   <servlet-name>AddRecFoyServlet</servlet-name>
+   <servlet-class>web.AddRecFoyServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>AddRecFoyServlet</servlet-name>
+   <url-pattern>/AddRecFoyServlet</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+   <servlet-name>AddRecResServlet</servlet-name>
+   <servlet-class>web.AddRecResServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>AddRecResServlet</servlet-name>
+   <url-pattern>/studentR</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+   <servlet-name>AffRecFoyServlet</servlet-name>
+   <servlet-class>web.AffRecFoyServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>AffRecFoyServlet</servlet-name>
+   <url-pattern>/student</url-pattern>
+ </servlet-mapping>
+ 
+   <servlet>
+   <servlet-name>AddSondage</servlet-name>
+   <servlet-class>web.AddSondage</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>AddSondage</servlet-name>
+   <url-pattern>/Sondage</url-pattern>
+ </servlet-mapping>
+ 
+    <servlet>
+   <servlet-name>PDVN</servlet-name>
+   <servlet-class>web.PDVN</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>PDVN</servlet-name>
+   <url-pattern>/PDVN</url-pattern>
+ </servlet-mapping>
+ 
+   <servlet>
+   <servlet-name>PDVO</servlet-name>
+   <servlet-class>web.PDVO</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>PDVO</servlet-name>
+   <url-pattern>/PDVO</url-pattern>
+ </servlet-mapping>
+ 
+     <servlet>
+   <servlet-name>PlatDispoAdmin</servlet-name>
+   <servlet-class>web.PlatDispoAdmin</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>PlatDispoAdmin</servlet-name>
+   <url-pattern>/PlatDispoAdmin</url-pattern>
+ </servlet-mapping>
+ 
+ <welcome-file-list>
+   <welcome-file>loginS.html</welcome-file>
+ </welcome-file-list>
+
+</web-app>
